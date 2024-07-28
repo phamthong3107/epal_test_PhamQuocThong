@@ -53,6 +53,10 @@
     cursor: pointer;
 }
 
+.menu ul li:hover {
+    border-bottom: 2px solid var(--ink-teal);
+}
+
 .carousel {
     margin-top: 205px;
 }
@@ -107,6 +111,10 @@
 
 .product {
     position: relative;
+}
+
+.product .text-content img {
+    transform: rotate(180deg);
 }
 
 .list-products {
